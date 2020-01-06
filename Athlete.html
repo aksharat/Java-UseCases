@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MyHTML</title>
+<link rel="stylesheet" type="text/css" href="atstyle.css"/>
+</head>
+<body>
+<table border="1">
+<tr><td>Athlete Name</td>
+<td><input type="text" name="ename" value="" required/></td></tr>
+<tr><td>Gender</td>
+<td><input type="radio" name="egender" value="male">Male
+<input type="radio" name="egender" value="female">Female</td>
+</tr>
+<tr><td>Category</td>
+<td>
+<select>
+<option value="Select">Select</option>
+  <option value="Running">Running</option>
+  <option value="High Jump">High Jump</option>
+  <option value="Hurdles">Hurdles</option>
+  <option value="Relay">Relay</option>
+  <option value="Javelin Throw">Javelin Throw</option>
+  <option value="Shot put">Shot put</option>
+  </td>
+</select>
+  
+<tr><td>Email</td>
+<td><input type="text" name="email" value="" required/></td></tr>
+<tr><td>Mobile</td>
+<td><input type="text" name="emobile" value="" pattern="{0-9}{10}" required/></td></tr>
+<tr><td class="sub" colspan="1"><input type="submit" value="ADD">
+<input type="submit" value="CANCEL"></td>
+<td><a href="home.html">Home</a></td>
+</table>
+</body>
+</html>

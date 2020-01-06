@@ -1,0 +1,5 @@
+SELECT status, COUNT( status ) as count
+FROM movietheatre
+having status='booked'
+or status='available';
+
